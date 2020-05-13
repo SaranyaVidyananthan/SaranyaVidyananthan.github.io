@@ -1,0 +1,212 @@
+* {
+    box-sizing: border-box;
+    color: black;
+}
+
+body {
+    font-size: 80%;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: white;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-justify-content: flex-end;
+    -moz-justify-content: flex-end;
+    -ms-justify-content: flex-end;
+    -o-justify-content: flex-end;
+    justify-content: flex-end;
+
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+
+    padding: 0 2%;
+    z-index: 1;
+}
+
+.logo {
+    margin-right: auto;
+}
+
+.nav-link li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.nav-link a:hover {
+    color: blue;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.parallax {
+    background-image: url("attachments/eat-sleep-code-repeat.jpeg");
+    height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax h1, .parallax h2 {
+    color: white;
+}
+
+.center {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+} 
+
+.flex-center {
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    -webkit-align-items: center;
+    -moz-align-items: center;
+    -ms-align-items: center;
+    -o-align-items: center;
+    align-items: center;
+}
+
+.flex-container {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    -webkit-flex-direction: row;
+    -moz-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-flow: row wrap;
+
+    -webkit-justify-content: center;
+    -moz-justify-content: center;
+    -ms-justify-content: center;
+    -o-justify-content: center;
+    justify-content: center;
+}
+
+.flex-item {
+    flex: 1;
+    -webkit-flex-direction: column;
+    -moz-flex-direction: column;
+    -ms-flex-direction: column;
+    -webkit-flex-wrap: nowrap;
+    -ms-flex-wrap: nowrap;
+    flex-flow: column nowrap;
+}
+
+.flex-size {
+    min-width: 300px;
+}
+
+.flex-img {
+    display: inline-block;
+    border-radius: 30px;
+    width: 70%;
+    height: auto;
+    margin: 25% 15%;
+}
+
+.desc {
+    display: inline-block;
+    padding: 0 10%;
+}
+
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+
+.avatar {
+    border-radius: 30px;
+    flex-grow: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.green {
+    background-color: #98FB98;
+}
+
+.blue {
+    background-color: #82CAFF;
+}
+
+.yellow {
+    background-color: #ffdb58;
+}
+
+.orange {
+    background-color: #fdad5c;
+}
+
+.red {
+    background-color: #ff533f;
+}
+
+.purple {
+    background-color: #b19cd9;
+}
+
+.black, .black p {
+    background-color: black;
+    color: white;
+}
+
+.tags li {
+    display: inline-block;
+    background-color: white;
+    border-radius: 10px;
+    padding: 0.7em;
+    margin: 0.5em;
+}
+
+a:hover {
+    transform: scale(1.1);
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h5, p, a, ul, footer {
+    font-family: roboto, helvetica, sans-serif;
+}
+
+.emphasis {
+    display:inline-block;
+    border-radius: 10px;
+    padding: 0.7em;
+    margin: 0.5em;
+}
+#aboutme {
+    overflow: hidden;
+}
+
+.links a {
+    padding-left: 0.4em;
+    padding-right: 0.4em;
+}
+
+div {
+    padding: 5px 0;
+}
+
+footer {
+    padding: 1% 0;
+}

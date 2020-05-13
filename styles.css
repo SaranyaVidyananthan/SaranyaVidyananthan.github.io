@@ -60,12 +60,6 @@ header {
     color: white;
 }
 
-.center {
-    position: relative;
-    top: 50%;
-    transform: translateY(-50%);
-} 
-
 .flex-center {
     display: -webkit-flex;
     display: -moz-flex;
@@ -181,7 +175,7 @@ h1, h2, h3, h4 {
 }
 
 h5, p, a, ul, footer {
-    font-family: roboto, helvetica, sans-serif;
+    font-family: 'Roboto', sans-serif;
 }
 
 .emphasis {
@@ -205,4 +199,11 @@ div {
 
 footer {
     padding: 1% 0;
+}
+
+@media only screen and (max-width: 600px) {
+    .parallax {
+        background-attachment: scroll;
+        height: 285px;
+    }
 }

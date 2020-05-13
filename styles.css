@@ -32,10 +32,6 @@ header {
     z-index: 1;
 }
 
-.logo {
-    margin-right: auto;
-}
-
 .nav-link li {
     display: inline-block;
     padding: 0 10px;
